@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
 * HelloApp.java A simple Java application that extends the functionality of
 * HelloAppUC1 by accepting a user's name as a command-line argument and displaying
@@ -20,7 +22,10 @@
 public class HelloApp {
     public static void main(String[] args){
         // Get the name from command-line argument
-        String name = args[0];
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
     }
 }
