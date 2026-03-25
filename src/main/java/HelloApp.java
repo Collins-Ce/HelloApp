@@ -1,7 +1,7 @@
 
 /**
 * HelloApp - UC4 - A simple Java application that greets multiple users by name if
-* provided as command-line arguments, or defaults to greeting "World" if no names are giv
+* provided as command-line arguments, or defaults to greeting "World" if no names are given
 *
 * Greet Multiple Users - The application should accept multiple names as command-line
 * argumentsand display a personalized greeting for each user.
